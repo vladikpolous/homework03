@@ -2,7 +2,7 @@ package com.alevel.homework03;
 
 public class HowManyCompositeNumbers {
     public static void main(String[] args) {
-        int quantity = 400;
+        int quantity = 1000;
         int arr[] = new int[quantity];
         int count =0;
         for (int i = 0; i < quantity; i++) {

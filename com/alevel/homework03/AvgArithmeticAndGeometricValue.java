@@ -7,7 +7,7 @@ public class AvgArithmeticAndGeometricValue {
         int sum = 0;
         int array[] = new int[quantity];
         for (int i = 0; i < quantity; i++) {
-            array[i] = (int) Math.round((Math.random() * (20 - 2) +2));
+            array[i] = (int) Math.round((Math.random() * (7 - 2) +2));
         }
         for (int i = 0; i < quantity; i++) {
             sum += array[i];
